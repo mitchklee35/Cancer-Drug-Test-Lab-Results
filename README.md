@@ -1,33 +1,13 @@
-# Matplotlib-Challenge - UT Data Analysis and Visualization coursework. 
+# Matplotlib-Challenge - Data Analysis and Visualization Course
+# CSV to Python. ETL & Matplotlib
+# Function
+The following data includes an animal study of mice and tumor growth given certain drug regimens. The goal with the data was to prove which drug regimens were successful in slowing or stopping tumor growth. 
+Here I pull the CSV file into python and convert them to a data frame. Using the ETL process to clean up any null datapoints or mislabeled columns. 
+I generated a technical report showing what drug regimen was successful and how successful it was compared to the others.  
+# Organization
+This code is organized in a Jupyter notebook and the data is within a separate folder. Each task is labeled and run in succession to ensure each element works independently. 
+# How to Run
+Open Jupyter notebook and make sure the data is in the correct file path. Pull in data, and ruin the different data frames. 
+# Result
+The number of tests by drug were between 175 and 225. Each mouse had an ID and were labeled male or female. The volume of the tumor was labeled next to a time stamp so you could track the growth over time. Capomulin was the most successful drug, showing an overall decrease to almost zero, of the tumor size. There was a statistical analysis done as well, for the average tumor size and mouse weight. This had an almost direct 1:1 correlation.
 
-As a senior data analyst at the company, you've been given access to the complete data from their most recent animal study. In this study, 250 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. You have been tasked by the executive team to generate all of the tables and figures needed for the technical report of the study. The executive team also has asked for a top-level summary of the study results.
-
-Your tasks are to do the following:
-
-Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
-
-Generate a bar plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the number of data points for each treatment regimen.
-
-NOTE: These plots should look identical.
-Generate a pie plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the distribution of female or male mice in the study.
-
-NOTE: These plots should look identical.
-Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
-
-Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
-
-Hint: All four box plots should be within the same figure. Use this Matplotlib documentation page for help with changing the style of the outliers.
-
-Generate a line plot of time point versus tumor volume for a single mouse treated with Capomulin.
-
-Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
-
-Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
-
-Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
-
-Here are some final considerations:
-
-You must use proper labeling of your plots, to include properties such as: plot titles, axis labels, legend labels, x-axis and y-axis limits, etc.
-
-See the starter workbook for help on what modules to import and expected format of the notebook.
