@@ -1,6 +1,6 @@
 # Cancer-Drug-Test-Lab-Results
 ## CSV to Python. ETL & Matplotlib
-# Function
+### Function
 The following data includes an animal study of mice and tumor growth given certain drug regimens. The goal with the data was to prove which drug regimens were successful in slowing or stopping tumor growth. 
 Here I pull the CSV file into python and convert them to a data frame. Using the ETL process to clean up any null datapoints or mislabeled columns. 
 I generated a technical report showing what drug regimen was successful and how successful it was compared to the others.  
